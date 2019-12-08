@@ -1,11 +1,13 @@
-# Markdown Starter Worksheet
-The main goal of MarkDown is to be easily written and easily read.  It uses "plain text" formatting and can be converted to HTML.  The most common use case I've come across to use Markdown is for ReadMe files, used, for example, for Github repos.  Markdown can also be used to create email.
+# Markdown starter Worksheet
+
+The main goal of MarkDown is to be easily written and easily read.  It uses "plain text" formatting and can be converted to HTML.  The most common use case I've come across to use Markdown is for ReadMe files, used, for example, for GitHub repository.  Markdown can also be used to create email.
 
 Markdown, in comparison to HTML, is much simpler to read and write.  The average person can typically understand markdown and would be able to learn and write it much quicker than HTML.
 
 Specifically, Visual Studio Code uses the [CommonMark](http://commonmark.org/) Markdown specification.
 
 ## Sections
+
 - [Headers](#headers)
 - [Quotes](#quotes)
 - [Emphasis](#emphasis)
@@ -22,6 +24,7 @@ Specifically, Visual Studio Code uses the [CommonMark](http://commonmark.org/) M
 ---
 
 ## Headers
+
 Headers are defined by the '#'symbol.  One '#' for H1, two for H2, etc.
 
 <!-- 
@@ -29,13 +32,13 @@ Headers are defined by the '#'symbol.  One '#' for H1, two for H2, etc.
 
     # H1 Header 
 -->
-> **TODO**. Create an H1 
+> **TODO**. Create an H1
 
-> **TODO**. Create an H2 
+> **TODO**. Create an H2
 
-> **TODO**. Create an H3 
+> **TODO**. Create an H3
 
-> **TODO**. Create an H4 
+> **TODO**. Create an H4
 
 ---
 
@@ -60,7 +63,7 @@ You can combine a header with a quote.
     > # H1 Quote
 -->
 
-> **TODO**. Create an H2 Quote 
+> **TODO**. Create an H2 Quote
 
 ---
 
@@ -95,7 +98,8 @@ You can also put Bold and Italicized text inline by surrounding a group of words
 > **TODO**. Create a bold sentence, an italicized sentence, and a sentence with both bold and italicized text inline
 
 ## Horizontal Rule
-A horizontal rule gives a visible line break.  You can create one by putting three or more hypens, asterisks, or underscores (-, *, _).
+
+A horizontal rule gives a visible line break.  You can create one by putting three or more hyphen, asterisks, or underscores (-, *, _).
 
 For what it's worth, I prefer dashes...
 
@@ -120,15 +124,15 @@ Create unordered lists using '-', '*', '+,
     - item
     * item
     + item
-    - sdfsd
+
 -->
 
-You can create sublists by indenting
+You can create sub-lists by indenting
 <!-- 
     Example
 
     - item
-    - subitem
+    - sub-item
 -->
 
 Create ordered lists using a number prefix
@@ -164,9 +168,9 @@ Create a link with text by surrounding text with brackets, [], and link immediat
     [James Q Quick](http://www.jamesqquick.com) 
 -->
 
-> **TODO** Create a link to your website, twitter, or github. with no text
+> **TODO** Create a link to your website, twitter, or GitHub. with no text
 
-> **TODO** Create a link with text to your website, twitter, or github
+> **TODO** Create a link with text to your website, twitter, or GitHub
 
 What if you needed to reuse a link several times?  Well, you could copy and paste that link each time.  That means, if you need to update the link, you will have to do it each time its used.  There's a better way!
 
@@ -194,7 +198,7 @@ When we create a header tag for example, it implicitly creates an id property.
 
 Ex '# Header' becomes `<h1 id="header">Header</h1>`
 
-Names will be converted to ids by replacing spaces with hyphens and uppercase letters with lowercase letters (think css naming convention).
+Names will be converted to ids by replacing spaces with hyphens and uppercase letters with lowercase letters (think CSS naming convention).
 
 Ex 'Header Info' becomes header-info
 
@@ -241,7 +245,7 @@ You can do inline code with `backticks` (``)
 
 > **TODO** Display a line of text with inline code
 
-You can do blocks of code by surroung it with 3 backticks (``` ```)
+You can do blocks of code by surround it with 3 back-ticks (``` ```)
 
 <!-- 
     Example
@@ -254,11 +258,11 @@ You can do blocks of code by surroung it with 3 backticks (``` ```)
 
 > **TODO** Display a block of code from your favorite language
 
-The above does not give language specific highlighting.  You can specify the programming language immediately following the opening 3 backticks.  You Should see a difference in highliting!
+The above does not give language specific highlighting.  You can specify the programming language immediately following the opening 3 back ticks.  You Should see a difference in high lighting!
 
 
 <!-- 
-    Example Javascript
+    Example JavaScript
 
     ```javascript
     var num = 0;
@@ -282,6 +286,7 @@ The above does not give language specific highlighting.  You can specify the pro
 ---
 
 ## Tables
+
 Tables are useful for displaying rows and columns of data.  Column headers can be defined in between pipes (|).  Headers are separated from table content with a row of dashes (-) (still separated by pipes), and there must be at least 3 dashes between each header.  The row data follows beneath (still separated by pipes).
 
 <!-- 
@@ -355,11 +360,12 @@ You can also add custom CSS to your MarkDown to add additional styling to your d
         }
     </style>
 ```
+
 > **TODO** If you are comfortable with CSS, give your page some style.
 
 ---
 
 ## Additional Resources
-- [Markdown Cheat Sheet - Adam P on Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
+- [Markdown Cheat Sheet - Adam P on GitHub](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images)
 - [Daring Fireball Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
 - [MarkDown in Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)
